@@ -4,7 +4,7 @@ echo "This process will install Veloren, a multiplayer voxel RPG written in Rust
 echo "It is inspired by games such as Cube World, Legend of Zelda: Breath of the Wild,"
 echo "Dwarf Fortress and Minecraft."
 
-sudo apt install -y wget git
+sudo apt install -y wget git libxkbcommon-x11-dev
 
 echo "Installing Rust..."
 cd ~
