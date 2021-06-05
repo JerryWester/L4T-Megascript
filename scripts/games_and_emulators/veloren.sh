@@ -12,6 +12,7 @@ wget -O rustup-init.sh https://sh.rustup.rs
 chmod +x rustup-init.sh
 ./rustup-init.sh -qy
 source $HOME/.cargo/env
+rm rustup-init.sh
 
 echo "Cloning Veloren..."
 git clone https://gitlab.com/veloren/veloren.git
